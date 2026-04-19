@@ -150,13 +150,32 @@ sudo rmmod monitor
 Screenshots will be added for the following:
 
 1. Multi-container supervision
+<img width="827" height="286" alt="1" src="https://github.com/user-attachments/assets/3c19dd68-3f76-4ca5-96d3-86d8960dd425" />
+
 2. Metadata tracking using `ps`
+<img width="690" height="114" alt="2" src="https://github.com/user-attachments/assets/cf68ad54-80be-4751-ba90-44d79e9ed456" />
+
 3. Logging system output
+<img width="729" height="523" alt="3" src="https://github.com/user-attachments/assets/c0a8199f-9a8d-47e6-8dab-ea12800a1ae0" />
+
+<img width="534" height="299" alt="4" src="https://github.com/user-attachments/assets/38971baf-7b0d-4d8a-84d7-a8e69ef4e97a" />
+
 4. CLI interaction with supervisor
+<img width="834" height="109" alt="5" src="https://github.com/user-attachments/assets/9a8bbe76-8471-43a7-ba2c-8429b7d1d2f1" />
+
 5. Soft memory limit warning
+<img width="833" height="45" alt="8" src="https://github.com/user-attachments/assets/521e007c-84ee-4f25-950f-1398fe86a6b3" />
+
 6. Hard memory limit enforcement
+<img width="828" height="44" alt="9" src="https://github.com/user-attachments/assets/7a9c5fee-842f-4ce1-83f1-371e699281ad" />
+
 7. Scheduling experiment results
+<img width="840" height="618" alt="10" src="https://github.com/user-attachments/assets/1df9d184-24fe-4d10-b5f7-84757327480e" />
+
 8. Clean system shutdown
+<img width="821" height="93" alt="11" src="https://github.com/user-attachments/assets/e3e93cf2-5479-478b-a0e0-c2e1d5e4bd19" />
+<img width="832" height="100" alt="image" src="https://github.com/user-attachments/assets/62f6c8ee-a557-4ded-a99b-20be55855939" />
+
 
 ---
 
