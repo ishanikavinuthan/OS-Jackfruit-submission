@@ -147,7 +147,7 @@ sudo rmmod monitor
 
 ## 3. Demo with Screenshots
 
-Screenshots will be added for the following:
+Screenshots for the following:
 
 1. Multi-container supervision
 <img width="827" height="286" alt="1" src="https://github.com/user-attachments/assets/3c19dd68-3f76-4ca5-96d3-86d8960dd425" />
