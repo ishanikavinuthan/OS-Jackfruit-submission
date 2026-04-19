@@ -383,14 +383,6 @@ Experiments were conducted using CPU-intensive workloads (`cpu_hog`) executed in
 - The container with higher nice value (**demo2, nice = 10**) experienced slightly slower execution due to lower scheduling priority.
 - Both processes completed execution successfully, demonstrating **fair scheduling with priority influence**.
 
-### Observations
-
-- CPU time was shared between containers using **time-slicing**, ensuring both processes made progress.
-- The Linux scheduler dynamically allocated CPU based on **process priority (nice value)**.
-- The container with lower nice value (**demo1, nice = 0**) received relatively higher CPU priority.
-- The container with higher nice value (**demo2, nice = 10**) experienced slightly slower execution due to lower scheduling priority.
-- Both processes completed execution successfully, demonstrating **fair scheduling with priority influence**.
-
 ---
 
 ## 7. Conclusion
