@@ -176,6 +176,7 @@ Since both workloads are small, the difference is not very large, but the schedu
 
 8. Clean system shutdown
 <img width="821" height="93" alt="11" src="https://github.com/user-attachments/assets/e3e93cf2-5479-478b-a0e0-c2e1d5e4bd19" />
+
 <img width="832" height="100" alt="image" src="https://github.com/user-attachments/assets/62f6c8ee-a557-4ded-a99b-20be55855939" />
 
 
