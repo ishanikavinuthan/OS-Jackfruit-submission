@@ -366,15 +366,22 @@ These results demonstrate how Linux scheduling policies maintain system stabilit
 
 ## 6. Scheduler Experiment Results
 
-Table: Scheduler Experiment Results
-+-----------+-------------+------------+--------------+-------------------+
-| Container | Workload    | Nice Value | Duration (s) | Observation       |
-+-----------+-------------+------------+--------------+-------------------+
-| demo1     | cpu_hog 10  | 0          | ~10          | Higher priority   |
-| demo2     | cpu_hog 10  | 10         | ~10–12       | Lower priority    |
-+-----------+-------------+------------+--------------+-------------------+
+### Table: Scheduler Experiment Results
+
+| Container | Workload    | Nice Value | Duration (s) | Observation        |
+|----------|------------|------------|--------------|--------------------|
+| demo1    | cpu_hog 10 | 0          | ~10          | Higher priority    |
+| demo2    | cpu_hog 10 | 10         | ~10–12       | Lower priority     |
 
 Experiments were conducted using CPU-intensive workloads (`cpu_hog`) executed in multiple containers with different scheduling priorities.
+
+### Observations
+
+- CPU time was shared between containers using **time-slicing**, ensuring both processes made progress.
+- The Linux scheduler dynamically allocated CPU based on **process priority (nice value)**.
+- The container with lower nice value (**demo1, nice = 0**) received relatively higher CPU priority.
+- The container with higher nice value (**demo2, nice = 10**) experienced slightly slower execution due to lower scheduling priority.
+- Both processes completed execution successfully, demonstrating **fair scheduling with priority influence**.
 
 ### Observations
 
